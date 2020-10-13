@@ -1,0 +1,16 @@
+{
+  "name": "edtechcucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cucumber": "^7.0.0-rc.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "testLoginFeature": "./node_modules/.bin/cucumber-js features/**/login.feature"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
